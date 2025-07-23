@@ -15,7 +15,7 @@ class NewsController extends Controller
     public function getNews()
     {
         // Sua chave de API obtida no site da News API
-        $apiKey = 'dc13e77f59fc49ecaeb4f75735435e9a';
+        $apiKey = env('NEWS_API_KEY');
 
         // Nome do deputado ou pessoa
         $nomeDeputado = 'Deputados';  // Pode ser qualquer nome
