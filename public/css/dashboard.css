@@ -1,0 +1,91 @@
+/* Estilo geral do Dashboard */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7fafc;
+    margin: 0;
+    padding: 0;
+}
+
+/* Título principal do dashboard */
+h1, h2 {
+    color: #2d3748;
+    font-size: 1.75rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Container dos gráficos */
+.charts {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+/* Caixa de cada gráfico */
+.chart-box {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Adiciona borda e espaçamento aos gráficos */
+canvas {
+    width: 100% !important;
+    height: 400px !important;
+}
+
+/* Estilo para a tabela de deputados */
+.table-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+/* Estilo da linha da tabela com conteúdo vazio */
+.empty-row {
+    text-align: center;
+    font-style: italic;
+    color: #a0aec0;
+}
+
+/* Linhas alternadas na tabela */
+table tr:nth-child(even) {
+    background-color: #f9fafb;
+}
+
+/* Estilo da tabela quando os dados são encontrados */
+table th {
+    background-color: #edf2f7;
+    color: #2d3748;
+    font-weight: bold;
+}
+
+/* Estilos do botão de busca ou qualquer outro botão (se necessário) */
+button {
+    background-color: #3182ce;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2b6cb0;
+}

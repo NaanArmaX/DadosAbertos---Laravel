@@ -1,0 +1,160 @@
+2025-07-22 00:31:22,174 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-22 00:31:22,177 INFO supervisord started with pid 1
+2025-07-22 00:31:23,185 INFO spawned: 'queue-worker' with pid 7
+2025-07-22 00:31:23,192 INFO spawned: 'schedule-worker' with pid 8
+2025-07-22 00:31:23,206 INFO spawned: 'serve' with pid 9
+2025-07-22 00:31:24,210 INFO success: queue-worker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-22 00:31:24,217 INFO success: schedule-worker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-22 00:31:24,217 INFO success: serve entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-22 00:41:50,141 WARN received SIGQUIT indicating exit request
+2025-07-22 00:41:50,143 INFO waiting for queue-worker, schedule-worker, serve to die
+2025-07-22 00:41:50,149 WARN stopped: serve (terminated by SIGTERM)
+2025-07-22 00:41:50,154 WARN stopped: schedule-worker (terminated by SIGTERM)
+2025-07-22 00:41:50,161 WARN stopped: queue-worker (terminated by SIGTERM)
+2025-07-22 00:41:51,115 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-22 00:41:51,119 INFO supervisord started with pid 1
+2025-07-22 00:41:52,124 INFO spawned: 'queue-worker' with pid 7
+2025-07-22 00:41:52,127 INFO spawned: 'schedule-worker' with pid 8
+2025-07-22 00:41:52,130 INFO spawned: 'serve' with pid 9
+2025-07-22 00:41:53,134 INFO success: queue-worker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-22 00:41:53,134 INFO success: schedule-worker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-22 00:41:53,134 INFO success: serve entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-22 00:41:55,174 WARN exited: queue-worker (exit status 1; not expected)
+2025-07-22 00:41:56,068 INFO spawned: 'queue-worker' with pid 28
+2025-07-22 00:41:57,606 INFO success: queue-worker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-22 00:42:01,060 WARN exited: queue-worker (exit status 1; not expected)
+2025-07-22 00:42:02,064 INFO spawned: 'queue-worker' with pid 37
+2025-07-22 00:42:03,066 INFO success: queue-worker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-22 00:42:06,785 WARN exited: queue-worker (exit status 1; not expected)
+2025-07-22 00:42:07,789 INFO spawned: 'queue-worker' with pid 50
+2025-07-22 00:42:08,791 INFO success: queue-worker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-22 00:42:13,518 WARN exited: queue-worker (exit status 1; not expected)
+2025-07-22 00:42:14,523 INFO spawned: 'queue-worker' with pid 57
+2025-07-22 00:42:15,525 INFO success: queue-worker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-22 00:42:19,671 WARN exited: queue-worker (exit status 1; not expected)
+2025-07-22 00:42:20,676 INFO spawned: 'queue-worker' with pid 64
+2025-07-22 00:42:21,677 INFO success: queue-worker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-22 00:42:25,815 WARN exited: queue-worker (exit status 1; not expected)
+2025-07-22 00:42:26,820 INFO spawned: 'queue-worker' with pid 71
+2025-07-22 00:42:27,821 INFO success: queue-worker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-22 00:42:31,805 WARN exited: queue-worker (exit status 1; not expected)
+2025-07-22 00:42:32,809 INFO spawned: 'queue-worker' with pid 78
+2025-07-22 00:42:33,810 INFO success: queue-worker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-22 00:42:37,995 WARN exited: queue-worker (exit status 1; not expected)
+2025-07-22 00:42:39,000 INFO spawned: 'queue-worker' with pid 85
+2025-07-22 00:42:40,002 INFO success: queue-worker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-22 00:42:44,263 WARN exited: queue-worker (exit status 1; not expected)
+2025-07-22 00:42:45,267 INFO spawned: 'queue-worker' with pid 92
+2025-07-22 00:42:46,269 INFO success: queue-worker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-22 00:42:50,577 WARN exited: queue-worker (exit status 1; not expected)
+2025-07-22 00:42:51,582 INFO spawned: 'queue-worker' with pid 99
+2025-07-22 00:42:52,584 INFO success: queue-worker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-22 00:42:59,151 WARN exited: queue-worker (exit status 1; not expected)
+2025-07-22 00:43:00,155 INFO spawned: 'queue-worker' with pid 116
+2025-07-22 00:43:01,157 INFO success: queue-worker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-22 00:46:57,386 WARN received SIGQUIT indicating exit request
+2025-07-22 00:46:57,387 INFO waiting for queue-worker, schedule-worker, serve to die
+2025-07-22 00:46:57,392 WARN stopped: serve (terminated by SIGTERM)
+2025-07-22 00:46:57,398 WARN stopped: schedule-worker (terminated by SIGTERM)
+2025-07-22 00:46:57,409 WARN stopped: queue-worker (terminated by SIGTERM)
+2025-07-22 00:46:58,177 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-22 00:46:58,180 INFO supervisord started with pid 1
+2025-07-22 00:46:59,185 INFO spawned: 'queue-worker' with pid 7
+2025-07-22 00:46:59,188 INFO spawned: 'schedule-worker' with pid 8
+2025-07-22 00:46:59,191 INFO spawned: 'serve' with pid 9
+2025-07-22 00:47:00,193 INFO success: queue-worker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-22 00:47:00,193 INFO success: schedule-worker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-22 00:47:00,193 INFO success: serve entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-22 00:47:02,017 WARN exited: queue-worker (exit status 1; not expected)
+2025-07-22 00:47:03,021 INFO spawned: 'queue-worker' with pid 28
+2025-07-22 00:47:04,620 INFO success: queue-worker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-22 03:11:09,912 WARN received SIGQUIT indicating exit request
+2025-07-22 03:11:09,924 INFO waiting for queue-worker, schedule-worker, serve to die
+2025-07-22 03:11:09,942 WARN stopped: serve (terminated by SIGTERM)
+2025-07-22 03:11:09,955 WARN stopped: schedule-worker (terminated by SIGTERM)
+2025-07-22 03:11:09,966 WARN stopped: queue-worker (terminated by SIGTERM)
+2025-07-22 03:11:11,135 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-22 03:11:11,140 INFO supervisord started with pid 1
+2025-07-22 03:11:12,144 INFO spawned: 'queue-worker' with pid 7
+2025-07-22 03:11:12,148 INFO spawned: 'schedule-worker' with pid 8
+2025-07-22 03:11:12,151 INFO spawned: 'serve' with pid 9
+2025-07-22 03:11:13,152 INFO success: queue-worker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-22 03:11:13,152 INFO success: schedule-worker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-22 03:11:13,152 INFO success: serve entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-22 03:11:15,797 WARN exited: queue-worker (exit status 1; not expected)
+2025-07-22 03:11:16,802 INFO spawned: 'queue-worker' with pid 29
+2025-07-22 03:11:18,131 INFO success: queue-worker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-22 03:18:33,032 WARN received SIGQUIT indicating exit request
+2025-07-22 03:18:33,033 INFO waiting for queue-worker, schedule-worker, serve to die
+2025-07-22 03:18:33,038 WARN stopped: serve (terminated by SIGTERM)
+2025-07-22 03:18:33,044 WARN stopped: schedule-worker (terminated by SIGTERM)
+2025-07-22 03:18:33,187 WARN stopped: queue-worker (terminated by SIGTERM)
+2025-07-22 03:18:34,028 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-22 03:18:34,031 INFO supervisord started with pid 1
+2025-07-22 03:18:35,031 INFO spawned: 'queue-worker' with pid 6
+2025-07-22 03:18:35,034 INFO spawned: 'schedule-worker' with pid 7
+2025-07-22 03:18:35,038 INFO spawned: 'serve' with pid 8
+2025-07-22 03:18:36,040 INFO success: queue-worker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-22 03:18:36,040 INFO success: schedule-worker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-22 03:18:36,041 INFO success: serve entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-22 03:18:38,996 WARN exited: queue-worker (exit status 1; not expected)
+2025-07-22 03:18:39,477 INFO spawned: 'queue-worker' with pid 27
+2025-07-22 03:18:41,098 INFO success: queue-worker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-22 03:27:38,194 WARN received SIGQUIT indicating exit request
+2025-07-22 03:27:38,195 INFO waiting for queue-worker, schedule-worker, serve to die
+2025-07-22 03:27:38,200 WARN stopped: serve (terminated by SIGTERM)
+2025-07-22 03:27:38,205 WARN stopped: schedule-worker (terminated by SIGTERM)
+2025-07-22 03:27:38,211 WARN stopped: queue-worker (terminated by SIGTERM)
+2025-07-22 03:27:38,988 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-22 03:27:38,991 INFO supervisord started with pid 1
+2025-07-22 03:27:39,996 INFO spawned: 'queue-worker' with pid 7
+2025-07-22 03:27:39,999 INFO spawned: 'schedule-worker' with pid 8
+2025-07-22 03:27:40,002 INFO spawned: 'serve' with pid 9
+2025-07-22 03:27:41,004 INFO success: queue-worker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-22 03:27:41,004 INFO success: schedule-worker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-22 03:27:41,004 INFO success: serve entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-22 03:27:43,072 WARN exited: queue-worker (exit status 1; not expected)
+2025-07-22 03:27:44,077 INFO spawned: 'queue-worker' with pid 22
+2025-07-22 03:27:45,797 INFO success: queue-worker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-22 03:40:11,761 WARN received SIGQUIT indicating exit request
+2025-07-22 03:40:11,762 INFO waiting for queue-worker, schedule-worker, serve to die
+2025-07-22 03:40:11,767 WARN stopped: serve (terminated by SIGTERM)
+2025-07-22 03:40:11,772 WARN stopped: schedule-worker (terminated by SIGTERM)
+2025-07-22 03:40:11,778 WARN stopped: queue-worker (terminated by SIGTERM)
+2025-07-22 18:42:51,590 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-22 18:42:51,594 INFO supervisord started with pid 1
+2025-07-22 18:42:52,661 INFO spawned: 'queue-worker' with pid 7
+2025-07-22 18:42:52,703 INFO spawned: 'schedule-worker' with pid 8
+2025-07-22 18:42:52,883 INFO spawned: 'serve' with pid 9
+2025-07-22 18:42:53,885 INFO success: queue-worker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-22 18:42:53,886 INFO success: schedule-worker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-22 18:42:53,886 INFO success: serve entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-22 19:14:18,924 WARN received SIGQUIT indicating exit request
+2025-07-22 19:14:18,925 INFO waiting for queue-worker, schedule-worker, serve to die
+2025-07-22 19:14:18,929 WARN stopped: serve (terminated by SIGTERM)
+2025-07-22 19:14:18,935 WARN stopped: schedule-worker (terminated by SIGTERM)
+2025-07-22 19:14:18,940 WARN stopped: queue-worker (terminated by SIGTERM)
+2025-07-22 19:14:19,797 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-22 19:14:19,801 INFO supervisord started with pid 1
+2025-07-22 19:14:20,805 INFO spawned: 'queue-worker' with pid 7
+2025-07-22 19:14:20,808 INFO spawned: 'schedule-worker' with pid 8
+2025-07-22 19:14:20,811 INFO spawned: 'serve' with pid 9
+2025-07-22 19:14:21,813 INFO success: queue-worker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-22 19:14:21,813 INFO success: schedule-worker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-22 19:14:21,813 INFO success: serve entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-22 19:14:23,763 WARN exited: queue-worker (exit status 1; not expected)
+2025-07-22 19:14:24,767 INFO spawned: 'queue-worker' with pid 22
+2025-07-22 19:14:26,376 INFO success: queue-worker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-22 22:21:52,915 WARN received SIGQUIT indicating exit request
+2025-07-22 22:21:53,244 INFO waiting for queue-worker, schedule-worker, serve to die
+2025-07-22 22:21:53,261 WARN stopped: serve (terminated by SIGTERM)
+2025-07-22 22:21:53,277 WARN stopped: schedule-worker (terminated by SIGTERM)
+2025-07-22 22:21:53,290 WARN stopped: queue-worker (terminated by SIGTERM)
+2025-07-23 17:27:52,828 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-23 17:27:52,843 INFO supervisord started with pid 1
+2025-07-23 17:27:53,928 INFO spawned: 'queue-worker' with pid 7
+2025-07-23 17:27:53,939 INFO spawned: 'schedule-worker' with pid 8
+2025-07-23 17:27:54,250 INFO spawned: 'serve' with pid 9
+2025-07-23 17:27:55,252 INFO success: queue-worker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 17:27:55,252 INFO success: schedule-worker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-07-23 17:27:55,253 INFO success: serve entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
